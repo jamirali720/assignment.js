@@ -1,4 +1,4 @@
-
+// https://github.com/jamirali720/assignment.js
 
 
 // this is the  kilometerToMeter function part.
@@ -30,7 +30,7 @@ function budgetCalculator(w, p, l) {
                 
 }
 
-var totalBudgetCost = budgetCalculator(15, 25, 20);
+var totalBudgetCost = budgetCalculator(10, 15, -12);
 console.log(totalBudgetCost);           // by using console.log () function has been checked.
 
 
@@ -79,8 +79,10 @@ function megaFriend (arr){
                 }
        
         }
+
         return largestName;
 }
+
 var names = ["Salam",  "Barkat", "jabbar", "Abdul Matin"," Abul kalam azad", "Rafiq", "Jamir ali", "Nesar uddin" ];
 var biggerName = megaFriend(names);
 console.log(biggerName);    // by using console.log () function has been checked.
